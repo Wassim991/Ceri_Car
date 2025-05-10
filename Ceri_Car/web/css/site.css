@@ -1,0 +1,201 @@
+/* --- Global Styles --- */
+body {
+    background-color: #f4f6f9; /* Fond gris clair moderne */
+    color: #333333; /* Texte noir doux */
+    font-family: 'Roboto', Arial, sans-serif; /* Police moderne et lisible */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Container Styling --- */
+main > .container {
+    padding: 70px 15px 20px;
+    border-radius: 15px;
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+}
+
+/* --- Footer Styling --- */
+.mt-auto.py-3.bg-light {
+    background-color: #1e90ff; /* Bleu vif */
+    color: #ffffff; /* Texte blanc */
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+/* --- Navbar Styling --- */
+.custom-navbar {
+    background-color: #0f4e88; /* Bleu vif */
+    color: #ffffff; /* Texte blanc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand {
+    color: #ffffff; /* Texte blanc */
+    font-weight: bold;
+    font-size: 20px;
+}
+/*navbar-expand-md navbar-dark bg-dark fixed-top*/
+
+.custom-navbar .navbar-nav .nav-link {
+    color: #ffffff; /* Liens blancs */
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+    color: #ffd700; /* Jaune au survol */
+}
+
+/* --- Card Styling --- */
+.card-shadow {
+    border-radius: 15px;
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Ombre douce */
+    padding: 20px;
+}
+
+/* --- Login & Inscription --- */
+.site-login, .site-inscription {
+    background-color: #f4f6f9; /* Fond gris clair */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login, .card-inscription {
+    max-width: 450px; /* Largeur maximale de la carte */
+    border-radius: 15px; /* Coins arrondis */
+    background-color: #ffffff; /* Fond blanc */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Ombre douce */
+    padding: 30px;
+}
+
+/* --- Form Styling --- */
+.card-login .form-control, .card-inscription .form-control {
+    border-radius: 8px; /* Coins arrondis des champs */
+    border: 1px solid #cccccc; /* Contour gris doux */
+    padding: 10px;
+}
+
+.card-login .btn-primary, .card-inscription .btn-primary {
+    background-color: #1e90ff; /* Bleu vif */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff; /* Texte blanc */
+}
+
+.card-login .btn-primary:hover, .card-inscription .btn-primary:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+/* --- Buttons --- */
+.btn {
+    border-radius: 8px; /* Coins arrondis des boutons */
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #1e90ff; /* Bleu vif */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Bleu foncé */
+}
+
+.btn-success {
+    background-color: #28a745; /* Vert vif */
+    color: #ffffff;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Vert foncé */
+}
+
+.btn-outline-secondary {
+    background-color: transparent;
+    color: #555555;
+    border: 1px solid #cccccc;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #cccccc;
+    color: #ffffff;
+}
+
+/* --- Grid Layout for Inscription Form --- */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.half {
+    padding: 15px;
+}
+
+.col-md-6 {
+    flex: 0 0 48%;
+    max-width: 48%;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* --- Index Page --- */
+.jumbotron {
+    background-color: #1e90ff; /* Bleu vif */
+    color: #ffffff; /* Texte blanc */
+    border-radius: 15px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbotron p.lead {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.body-content {
+    margin-top: 20px;
+}
+
+.body-content .row .col-lg-4 {
+    padding: 15px;
+}
+
+.body-content .row .col-lg-4 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.body-content .row .col-lg-4 p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.body-content .row .col-lg-4 .btn {
+    margin-top: 10px;
+}
